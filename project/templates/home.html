@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET" action="{% url "result" %}">
+        <label for="unit_number"><b>unit_number</b></label>
+        <input type="float" value="3.91000e+02" name="unit_number"  required>
+        
+        <label for="setting_2"><b>setting_2</b></label>
+        <input type="float" value="0.00000e+00" name="setting_2"  required>
+
+        
+        <label for="T2"><b>T2</b></label>
+        <input type="float" value="5.18670e+02" name="T2"  required>
+
+        
+        <label for="T24"><b>T24</b></label>
+        <input type="float" value="6.42440e+02" name="T24"  required>
+
+        
+        <label for="T30"><b>T30</b></label>
+        <input type="float" value="1.58412e+03" name="T30"  required>
+
+        <label for="T50"><b>T50</b></label>
+        <input type="float" value="1.40642e+03" name="T50"  required>
+
+        <label for="P2"><b>P2</b></label>
+        <input type="float" value="1.46200e+01" name="P2"  required>
+
+        
+        <label for="P15"><b>P15</b></label>
+        <input type="float" value="2.16100e+01" name="P15"  required>
+
+        
+        <label for="Nf"><b>Nf</b></label>
+        <input type="float" value="2.38803e+03" name="Nf"  required>
+        
+        <label for="Nc"><b>Nc</b></label>
+        <input type="float" value="9.04529e+03" name="Nc"  required>
+        
+        <label for="epr"><b>epr</b></label>
+        <input type="float" value="1.30000e+00" name="epr"  required>
+        
+        <label for="Ps30"><b>Ps30</b></label>
+        <input type="float" value="4.72800e+01" name="Ps30"  required>
+        
+        <label for="NRf"><b>NRf</b></label>
+        <input type="float" value="2.38805e+03" name="NRf"  required>
+        
+        <label for="NRc"><b>NRc</b></label>
+        <input type="float" value="8.13290e+03" name="NRc"  required>
+
+
+        <label for="BPR"><b>BPR</b></label>
+        <input type="float" value="8.39170e+00" name="BPR"  required>
+
+        <label for="htBleed"><b>htBleed</b></label>
+        <input type="float" value="3.91000e+02" name="htBleed"  required>
+
+        <button type="submit" >Use Linear regression to find remaining life cycle</button>
+    </form>
+</body>
+</html>
